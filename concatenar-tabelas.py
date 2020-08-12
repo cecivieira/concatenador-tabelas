@@ -36,7 +36,7 @@ def main():
     st.subheader('')
     st.subheader('Tipo de concatenação')
     add_selectbox = st.selectbox(
-        'Selecione o tipo de concatenação que você deseja realizar:', (['Linhas no final'])
+        'Selecione o tipo de concatenação que você deseja realizar:', (['', 'Linhas no final'])
     )
 
     if add_selectbox == 'Linhas no final':
